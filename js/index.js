@@ -94,15 +94,16 @@ function renderButtons() {
       greenPepBtn.classList.remove('active')
     }
 
+
     const sauceBtn = document.querySelector('.btn.btn-sauce')
-    if (state.whiteSauce = true) {
+     if (state.whiteSauce) {
       sauceBtn.classList.add('active')
-    } else {
+      } else {
       sauceBtn.classList.remove('active')
-    }
+      }
 
     const glutenBtn = document.querySelector('.btn.btn-crust')
-      if (state.glutenFreeCrust = true) {
+      if (state.glutenFreeCrust) {
         glutenBtn.classList.add('active')
       } else {
         glutenBtn.classList.remove('active')
